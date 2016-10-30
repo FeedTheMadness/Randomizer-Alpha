@@ -28,3 +28,5 @@ loop do
   state = ftpconnect domain, login, password
   break if state == true
 end
+
+puts password
