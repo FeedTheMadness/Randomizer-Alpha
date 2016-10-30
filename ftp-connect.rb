@@ -26,7 +26,6 @@ login = gets.chomp
 loop do
   password = random
   state = ftpconnect domain, login, password
+  puts password
   break if state == true
 end
-
-puts password
