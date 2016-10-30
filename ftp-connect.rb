@@ -10,11 +10,9 @@ def ftpconnect(domain, login, password)
 end
 
 def random()
-  loop do
-    #Génération de la suite de caractères
-    row = Array.new(Random.rand(16)){rand(62).base62_encode}.join
-    return row
-  end
+  #Génération de la suite de caractères
+  row = Array.new(Random.rand(16)){rand(62).base62_encode}.join
+  return row
 end
 
 
