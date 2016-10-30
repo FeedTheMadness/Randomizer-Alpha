@@ -1,9 +1,8 @@
 #Librairies
-require 'net/ftp'
-require "base62"
+require 'base62'
+
 #Initialisation du compteur
 n = 0
-
 #Démarage de la loop
 loop do
   #Génération de la suite de caractères
