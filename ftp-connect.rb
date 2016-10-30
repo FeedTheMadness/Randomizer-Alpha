@@ -15,6 +15,7 @@ def random()
     row = Array.new(Random.rand(16)){rand(62).base62_encode}.join
     return row
   end
+end
 
 
 puts "Entre le nom de domaine"
